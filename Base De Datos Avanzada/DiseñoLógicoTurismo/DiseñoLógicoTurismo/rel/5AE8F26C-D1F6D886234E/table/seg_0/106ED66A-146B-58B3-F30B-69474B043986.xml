@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="106ED66A-146B-58B3-F30B-69474B043986" name="Parroquia">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:52:29 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodParroquia" id="85B3292A-4B94-A640-38E5-48CFCEA82318">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:53:35 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreParroquia" id="76A42CAE-C5B4-8B47-5692-701855D7AF3B">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:53:35 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodCanton" id="90AB737D-1917-3ECF-FCB1-8E86AEE59E5F">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:28:09 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="820923C2-8240-748F-26FA-486C94CF20BB" referredColumn="822C8B38-C80F-77FF-3CFA-9BA32228AEF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68C5E253-D7FD-756B-D3CF-8D1CE649E454" name="Parroquia_PK">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:53:35 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85B3292A-4B94-A640-38E5-48CFCEA82318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C6427A8-ADB4-2262-4C32-CF51021DFFE5" name="Parroquia_Canton_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:28:09 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90AB737D-1917-3ECF-FCB1-8E86AEE59E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

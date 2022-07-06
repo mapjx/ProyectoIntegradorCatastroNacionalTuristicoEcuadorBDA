@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A519F943-3E47-5076-448E-5CE6F575DD6C" name="TurismoCanton">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:55:14 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodTurismo" id="7690FEAA-B6C9-4976-D958-38793EF39D9E">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:56:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreTurismo" id="2C23BDE7-6FEB-7A8E-EBA7-E081221B39BA">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:56:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="0C77BCD6-4E11-2048-37CD-04E90F0634A5">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-29 03:55:41 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93DFC185-61F8-6571-DBAC-611E33F03F34" name="TurismoCanton_PK">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:56:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7690FEAA-B6C9-4976-D958-38793EF39D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

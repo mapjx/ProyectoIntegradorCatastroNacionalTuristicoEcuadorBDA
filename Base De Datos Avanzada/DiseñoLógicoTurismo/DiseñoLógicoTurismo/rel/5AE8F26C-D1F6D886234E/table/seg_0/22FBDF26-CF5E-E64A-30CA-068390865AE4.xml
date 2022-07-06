@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22FBDF26-CF5E-E64A-30CA-068390865AE4" name="Clasificacion">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:00:39 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodClasificacion" id="8307AB6A-8721-D56F-AC94-488D48B7186B">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:01:19 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreClasificacion" id="E336449F-89DC-25FC-AE15-ED8F68F051AD">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:01:40 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54435DDE-9055-FB51-043B-AE03601D6119" name="Clasificacion_PK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:01:19 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8307AB6A-8721-D56F-AC94-488D48B7186B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

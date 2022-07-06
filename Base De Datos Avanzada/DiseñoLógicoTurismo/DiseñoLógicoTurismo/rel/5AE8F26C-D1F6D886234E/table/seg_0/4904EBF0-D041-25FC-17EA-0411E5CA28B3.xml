@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4904EBF0-D041-25FC-17EA-0411E5CA28B3" name="FiestasProvincias">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:20:37 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodFiesta" id="E3120B9D-010E-A973-AD3D-66003E606AE5">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:21:50 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreFiesta" id="E4FFAAA5-0284-571C-607F-973F09A86CA9">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:21:50 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFiesta" id="5B53B016-42BB-4473-11EB-262850A16DC4">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:22:42 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoFiesta" id="81C04ABA-52A2-9FC6-BACE-02D7F8D14C0B">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:23:27 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodProvincia" id="927777FD-3673-6DAF-26A6-B262C5820525">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:28:57 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D10A67D6-0B65-81CA-01F3-BFD47FD02BF0" referredColumn="9E89391D-ED65-BC42-6CDA-BBAE0BC95291"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02984200-D01B-184B-2567-25B469DB0321" name="FiestasProvincias_PK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:21:50 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3120B9D-010E-A973-AD3D-66003E606AE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3ED9781-38CB-346D-1544-A6A183EAAE06" name="FiestasProvincias_Provincia_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:28:57 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="927777FD-3673-6DAF-26A6-B262C5820525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

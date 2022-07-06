@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DiseñoLógicoTurismo" id="CF2345C7-D42E-46F9-4101-E373BDBE0139" version="3.5">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:30:27 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CF2345C7-D42E-46F9-4101-E373BDBE0139</designId>
+</OSDM_Design>

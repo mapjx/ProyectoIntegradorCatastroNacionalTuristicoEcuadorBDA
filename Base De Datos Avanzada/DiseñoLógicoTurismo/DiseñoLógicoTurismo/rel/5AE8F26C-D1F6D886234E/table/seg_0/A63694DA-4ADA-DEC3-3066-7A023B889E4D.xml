@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A63694DA-4ADA-DEC3-3066-7A023B889E4D" name="ActividadComercial">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:21:36 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodComercial" id="D05372CB-854B-3F83-F21D-37F846F03A1F">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:22:01 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreActividad" id="196F98E8-1235-F572-2134-A03931C2237B">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:22:33 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8B80EC9-7354-4592-B417-58375D139B23" name="ActividadComercial_PK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:22:01 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05372CB-854B-3F83-F21D-37F846F03A1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

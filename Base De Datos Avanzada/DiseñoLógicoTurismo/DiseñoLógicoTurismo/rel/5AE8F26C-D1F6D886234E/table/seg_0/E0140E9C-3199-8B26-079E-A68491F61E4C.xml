@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0140E9C-3199-8B26-079E-A68491F61E4C" name="Gastronomia">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:59:43 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodGastronomia" id="2DBC5DA0-A5C8-E4AB-E3B4-51F0187D5CC4">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 06:01:05 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombrePlato" id="141A7429-11BE-B71B-8716-CD0FD09998BE">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 06:01:05 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodProvincia" id="DC998606-7668-FBB2-3CCE-8BB9240F4092">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:27:06 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6BEB1CD-D0A3-AFBC-771F-047D65E33A74" referredColumn="9E89391D-ED65-BC42-6CDA-BBAE0BC95291"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2D7C5C8-860C-5AAA-972B-FE08B3FE9347" name="Gastronomia_PK">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 06:01:05 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DBC5DA0-A5C8-E4AB-E3B4-51F0187D5CC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5CC706F-556D-BC41-6A53-F85E27520F47" name="Gastronomia_Provincia_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:27:06 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC998606-7668-FBB2-3CCE-8BB9240F4092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

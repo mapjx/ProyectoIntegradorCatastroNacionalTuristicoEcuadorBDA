@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D92118B-9D34-796F-3C4D-84266D1829EB" name="Categoria">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:58:09 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodCategoria" id="777CA2D6-CB67-D0BB-4CCC-9CBBABC5051D">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:59:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreCategoria" id="872BD228-4CE6-3FD6-D6D5-12C1E4545FAA">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:59:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1780C1FB-36D1-0BB9-9DB9-E9BAC23B1261" name="Categoria_PK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 05:59:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="777CA2D6-CB67-D0BB-4CCC-9CBBABC5051D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

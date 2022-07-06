@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01F682F1-78EB-3EC7-14B5-E1F7F9B67CCC" name="Establecimiento">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:33:16 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodEstablecimiento" id="BBED0243-1BE3-0CBB-1A73-487284BA1F40">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:34:33 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreComercial" id="F4602FF8-8894-6D23-E141-CC118E8EF4C0">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:34:33 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="7DD8B5F3-E28D-3C7B-ECE3-BBE0CDAEDD1E">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:34:53 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referenciaDireccion" id="037F489E-C438-2DDE-BA4D-59393166934A">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:35:19 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonoPrincipal" id="654C5DFF-EA11-22A3-88C5-D3452608C7E9">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:35:37 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonoSecundario" id="8E385EC0-7311-4EF1-A17C-03FAA560E57B">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:35:57 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CorreoElectronico" id="E63CC7B6-9272-CDB4-22CE-64525A15E6B2">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:36:19 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="delivery" id="3DCB7BA9-5CB5-8022-731F-C8D98606A79C">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:36:38 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paginaWeb" id="1EF445D8-1037-E0CA-8B3B-1A068AA9A1C4">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:36:55 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodProvincia" id="3CC8DE1C-C160-E757-E675-23280D21B543">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:26:46 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="182AAA3F-F2FE-F019-A734-446CB248C97C" referredColumn="9E89391D-ED65-BC42-6CDA-BBAE0BC95291"/>
+</associations>
+</Column>
+<Column name="CodComercial" id="312C2D52-EA5B-77AC-4031-1AE623CD4902">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 17:10:24 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF94A003-F9EE-9722-0AE5-B2F36B67661E" referredColumn="D05372CB-854B-3F83-F21D-37F846F03A1F"/>
+</associations>
+</Column>
+<Column name="CodClasificacion" id="80FE0DAC-2148-DB91-EF0C-24672F71E193">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 17:10:09 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EBD7F93-24A3-BC17-59AD-C34AAB182531" referredColumn="8307AB6A-8721-D56F-AC94-488D48B7186B"/>
+</associations>
+</Column>
+<Column name="CodCategoria" id="EBCD4882-19EB-9844-6D81-CBC4E0E82298">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:17:11 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06731F16-DDF6-9E01-EDE8-D025D30CFA55" referredColumn="777CA2D6-CB67-D0BB-4CCC-9CBBABC5051D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE3E2A8B-8518-63BD-EC92-17F55346DD4D" name="Establecimiento_PK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 06:34:33 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBED0243-1BE3-0CBB-1A73-487284BA1F40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C5FD4E0-447A-F94D-81AF-4EDA955B1A5C" name="Establecimiento_Categoria_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:17:11 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBCD4882-19EB-9844-6D81-CBC4E0E82298"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F6F8F81-2D24-312B-F98B-A0DB33BE067C" name="Establecimiento_Provincia_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:26:46 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CC8DE1C-C160-E757-E675-23280D21B543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C657BF7A-49B7-BB48-8222-5ACA24AA5913" name="Clasificacion_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 17:10:09 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80FE0DAC-2148-DB91-EF0C-24672F71E193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D34D72A7-D048-2BAC-7045-83B4F05563A7" name="ActividadComercial_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 17:10:24 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="312C2D52-EA5B-77AC-4031-1AE623CD4902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="5AE8F26C-546F-4842-E9FB-D1F6D886234E" mainViewID="A8D26BEE-F681-4AC0-0F62-0E04C2C4CC3A">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:30:37 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

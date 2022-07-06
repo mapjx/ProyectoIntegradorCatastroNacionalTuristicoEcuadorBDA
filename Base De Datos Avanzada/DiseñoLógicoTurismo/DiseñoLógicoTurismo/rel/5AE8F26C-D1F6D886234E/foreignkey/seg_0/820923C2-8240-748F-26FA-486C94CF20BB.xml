@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="820923C2-8240-748F-26FA-486C94CF20BB" containerWithKeyObject="106ED66A-146B-58B3-F30B-69474B043986" localFKIndex="1C6427A8-ADB4-2262-4C32-CF51021DFFE5" name="Parroquia_Canton_FK">
+<createdBy>MAQUINA</createdBy>
+<createdTime>2022-06-30 15:28:09 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<referredTableLongName>Canton</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B77D41A-887D-1671-8E20-369EDF9596FD</referredTableID>
+<keyObject>827C0589-15CB-B52C-D304-464AA7DD1051</keyObject>
+<referredKeyID>827C0589-15CB-B52C-D304-464AA7DD1051</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CodCanton</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="372D6837-9AC3-62D9-2EDF-30F173A8CEAE" name="Provincia">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:46:53 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodProvincia" id="9E89391D-ED65-BC42-6CDA-BBAE0BC95291">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:48:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreProvincia" id="8A503555-5954-BD1B-2D28-D487E4B1ABD9">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:48:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clima" id="41B2A441-975D-7D9B-1A0D-39A1011CA2FA">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:48:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F8CDA52-0C99-60E4-4031-2C04AFD1479B" name="Provincia_PK">
+<createdBy>A S U S</createdBy>
+<createdTime>2022-06-21 05:48:15 UTC</createdTime>
+<ownerDesignName>DiseñoLógicoTurismo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E89391D-ED65-BC42-6CDA-BBAE0BC95291"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
