@@ -1,0 +1,52 @@
+CodCategoria;NombreCategoria
+001;(1) Un tenedor
+002;(1) Una copa
+003;(1) Una taza
+004;(2) Dos copas
+005;(2) Dos tazas
+006;(2) Dos tenedores
+007;(3) Tres copas
+008;(3) Tres tenedores
+009;(4) Cuatro tenedores
+010;(5) Cinco tenedores
+011;1 Estrella
+012;2 Estrellas
+013;3 Estrellas
+014;4 Estrellas
+015;5 Estrellas
+016;Agencia de viajes dual
+017;Agencia de viajes internacional
+018;Agencia de viajes mayoristas
+019;Categoria unica
+020;CUARTA
+021;Cuarta / 1 Tenedor
+022;Fluvial
+023;Funiculares o telefericos por cabinas
+024;Inter_Oper
+025;Internacional no operante en el pais que tiene oficinas de representacion o informacion
+026;Internacional no operante en el pais que tiene oficinas de venta
+027;LAN_TOUR_DIARIO
+028;LANC_PASAJE
+029;LUJO
+030;LUJO / 2 TAZAS
+031;LUJO / 5 TENEDORES
+032;MOTO_Velero
+033;Motonaves
+034;Operador turistico
+035;Primera
+036;Primera / 1 taza
+037;Primera / 4 tenedores
+038;RENT A CAR
+039;Segunda
+040;Segunda / 3 tenedores
+041;Servicios avionetas helicopteros
+042;Servicio nacional aereo
+043;Servicio transp. terres. turis.
+044;Tercera
+045;Tercera / 2 tenedores
+046;YATES_PASAJ
+047;Primera / 3 Copas
+048;Segunda / 2 Copas
+049;Tercera / 1 Copa
+;
+;
